@@ -5,8 +5,6 @@ This cookbook helps you to install fluentd.
 
 Requirements
 ------------
-
-e.g.
 #### packages
 - `ruby` - cookbook-fluentd needs ruby.
 
