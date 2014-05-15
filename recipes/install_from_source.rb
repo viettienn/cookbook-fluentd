@@ -32,7 +32,7 @@ execute 'extract downloaded file' do
   command "tar -zxvf #{download_to_path}"
 end
 
-execute 'build and install gem' do
+execute 'build gem from source and install gem' do
   user node[:fluentd][:user]
   group node[:fluentd][:user]
   cwd "#{node[:fluentd][:install_dir]}/#fluentd-{version}"
